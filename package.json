@@ -1,6 +1,7 @@
 {
   "name": "baileys-whatsapp-bot",
   "version": "1.0.0",
+  "type": "module",
   "description": "WhatsApp bot using Baileys and Express for message sending",
   "main": "index.js",
   "scripts": {

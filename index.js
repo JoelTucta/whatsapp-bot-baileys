@@ -1,4 +1,7 @@
-import makeWASocket, { useMultiFileAuthState, DisconnectReason } from "@whiskeysockets/baileys";
+// import makeWASocket, { useMultiFileAuthState, DisconnectReason } from "@whiskeysockets/baileys";
+import baileys from "@whiskeysockets/baileys";
+const { makeWASocket, useMultiFileAuthState, DisconnectReason } = baileys;
+
 import express from "express";
 import qrcode from "qrcode-terminal";
 
